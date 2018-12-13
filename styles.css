@@ -9,6 +9,9 @@ h1{
 h2{
     font-size: 30px;
 }
+p{
+    color:white;
+}    
 #name {
     display: flex;
     flex-direction: column;
