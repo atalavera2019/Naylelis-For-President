@@ -1,0 +1,102 @@
+<!DOCTYPE html> <html><head>
+        <title>Naylelis For President</title>
+        <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <style>body{
+    font-family: 'Staatliches', cursive;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+#name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    background:red;
+}
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#initiative h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#donate, #initiative {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#donate {
+    color:white;
+    background-image: url(https://thumbs.gfycat.com/TastyScaredAdeliepenguin-size_restricted.gif) ;
+}
+
+#initiative {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0HDQ0HDQ8NDQcNFREWFhURFRMYHSggGBolGxUVITEhJSkrLi46Fx8zODM4NygtOisBCgoKDQ0NDg0NDysZFRk3Ny0tKys3Ky03NystLSsrKysrKystKysrLSstKysrKysrLSsrLSsrKystKysrKysrK//AABEIASwAqAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBAf/xAAaEAEBAQADAQAAAAAAAAAAAAAAEQECIXEx/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A+mIpyvrJFYgikgcSKCKRZSKawANBvAyNaDeJka1uDW8LGhvWY1UyiTS3ETHA3QjFEqsMRQohhhTIMRLITUEawUBqKNYGYNaDeJgbjYjVLAje4I1SwmoEW8MOJyRqiGFJUEwoUFGBmqI5hIChiIEEaTQZ3BrUEOamBG4I1Swo1BGqWYiTSc+YjxzrPMMeEVERMUVGYSoBVDFhABhMAERUIZiaG4UBDESzuCNbgaqZgjSNLEJiVS451nmE8fmeYUzQUWTRhhiCqiMLIBUMCCJiDMRRTMDUUVLEUaBqZijSVTETaVLPHOs8wrjnWeYY9XlQYYYzrVCMMZ1UFQs6qlCgkjEEBGlEqyGookzBGolUzBG4lTWYmolVWOPzPMJ451nhj3eNZJhgNEUaiZNETUUZ00QwwsqsxRqIVMhsRVANKJMqNQQERQwxVVmJqEVOeZ1ijWZ1ijprnoTSZrVEMRBohWGMmgosqhQoGiIpKgNKBUQRqKJURRqIKiBoBMZhiwulzUIoNVJEGhFA1IoGpIg0IoKhFI0IxBUEgKrMRSVcsIxOhyUoFGpJI0oIRqkhCGlAiNVEIQ0oJQ1pBURVEERJJKJxws4XRHDSqEo1SWTVDUQlGs0pIRqlJCGpIVRqlCoQ01A1Q0qipRU1CgRVzIT2cFKCUNJCUapSSjWaUCo1mpJCNVJJQ1KiqmNGqs1VQtVViqrlN1MVLkghNPnlBKEkFQ0oJNYUCms1JJN5qCRhSAMaNFGiqE1VmimFuhmo8p0ITDgSRRSSRKSLWIhIkEKNZqBZLSGrRrWY1iGpndajS3RUKYTUxUYnpRDxjhSRUSSShKSUaSSJQSTWIFktDRp1nWsxoaDrOtZhW6zundZ1rMKoSJexBPCOEpIlJIQlAo4kgmkkE1iBBLOjTo1ppnQdDWFnQ0GsNZR0FV60k8Y4ygjEUkGkkkSEA1hCSawDSE0NB0Es6GtDWIMtBrFRA0mhXpBDzcqSSKKQaSSRxBINYgQy1iBSaZDQNIBRoZijQazQIimqHZJMvAFJFJIFBJNJJMtYkEG8SQBQIRSKNAihTWM6IiGmH//Z);
+    color:blue ;
+}
+
+#nai img{
+    width: 30%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#nai {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#nai img:hover {
+  -webkit-transform: rotateY(150deg); /* Safari */
+  transform: rotateY(150deg);
+}
+
+#nai {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0HDQ0HDQ8NDQcNFREWFhURFRMYHSggGBolGxUVITEhJSkrLi46Fx8zODM4NygtOisBCgoKDQ0NDg0NDysZFRk3Ny0tKys3Ky03NystLSsrKysrKystKysrLSstKysrKysrLSsrLSsrKystKysrKysrK//AABEIASwAqAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBAf/xAAaEAEBAQADAQAAAAAAAAAAAAAAEQECIXEx/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A+mIpyvrJFYgikgcSKCKRZSKawANBvAyNaDeJka1uDW8LGhvWY1UyiTS3ETHA3QjFEqsMRQohhhTIMRLITUEawUBqKNYGYNaDeJgbjYjVLAje4I1SwmoEW8MOJyRqiGFJUEwoUFGBmqI5hIChiIEEaTQZ3BrUEOamBG4I1Swo1BGqWYiTSc+YjxzrPMMeEVERMUVGYSoBVDFhABhMAERUIZiaG4UBDESzuCNbgaqZgjSNLEJiVS451nmE8fmeYUzQUWTRhhiCqiMLIBUMCCJiDMRRTMDUUVLEUaBqZijSVTETaVLPHOs8wrjnWeYY9XlQYYYzrVCMMZ1UFQs6qlCgkjEEBGlEqyGookzBGolUzBG4lTWYmolVWOPzPMJ451nhj3eNZJhgNEUaiZNETUUZ00QwwsqsxRqIVMhsRVANKJMqNQQERQwxVVmJqEVOeZ1ijWZ1ijprnoTSZrVEMRBohWGMmgosqhQoGiIpKgNKBUQRqKJURRqIKiBoBMZhiwulzUIoNVJEGhFA1IoGpIg0IoKhFI0IxBUEgKrMRSVcsIxOhyUoFGpJI0oIRqkhCGlAiNVEIQ0oJQ1pBURVEERJJKJxws4XRHDSqEo1SWTVDUQlGs0pIRqlJCGpIVRqlCoQ01A1Q0qipRU1CgRVzIT2cFKCUNJCUapSSjWaUCo1mpJCNVJJQ1KiqmNGqs1VQtVViqrlN1MVLkghNPnlBKEkFQ0oJNYUCms1JJN5qCRhSAMaNFGiqE1VmimFuhmo8p0ITDgSRRSSRKSLWIhIkEKNZqBZLSGrRrWY1iGpndajS3RUKYTUxUYnpRDxjhSRUSSShKSUaSSJQSTWIFktDRp1nWsxoaDrOtZhW6zundZ1rMKoSJexBPCOEpIlJIQlAo4kgmkkE1iBBLOjTo1ppnQdDWFnQ0GsNZR0FV60k8Y4ygjEUkGkkkSEA1hCSawDSE0NB0Es6GtDWIMtBrFRA0mhXpBDzcqSSKKQaSSRxBINYgQy1iBSaZDQNIBRoZijQazQIimqHZJMvAFJFJIFBJNJJMtYkEG8SQBQIRSKNAihTWM6IiGmH//Z);
+}
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background:blue;
+    color:black;
+    border-radius: 5px;
+    border: solid white 4px;
+}
+
+#donate button:hover {
+    background:red;
+    color:blue;
+}</style></head>
+    <body>
+        <div id="name">
+            <h1>Nayelis</h1>
+        </div>
+        
+        <div id="nai">
+            <img src="https://scontent-lga3-1.cdninstagram.com/vp/e4df9d7e0bc87f44f8ff221741fb07b2/5C9773CC/t51.2885-15/e35/27877808_2011778592370392_1927482070045556736_n.jpg?ig_cache_key=MTcxNTYyMzkwOTk4MTQ0Njk5NQ%3D%3D.2">
+            <img src="https://scontent-lga3-1.cdninstagram.com/vp/631c2dcab6a5c3f6fe6d42fe477d12cc/5C93AA03/t51.2885-15/e35/s240x240/29414845_236589443580380_3953258838936780800_n.jpg"> 
+            <img src="https://scontent-lga3-1.cdninstagram.com/vp/3b7dbae3d49c33232372705ffce1e69f/5CA6C590/t51.2885-15/sh0.08/e35/s750x750/26067644_158879558067763_3143929533984407552_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&amp;ig_cache_key=MTY4MjIxMTU5NzgwMzQ4MTMzMA%3D%3D.2">
+        </div>
+        
+        <div id="donate">
+             <h1><em>A Dollar A Day Keeps The Straights Away</em></h1>
+             <button>Donate</button>
+        </div>
+        
+        <div id="initiative">
+            <h1>Make America Gay Again</h1>            
+        </div>
+
+</body></html>
