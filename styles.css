@@ -1,0 +1,78 @@
+body{
+    font-family: 'Staatliches', cursive;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+#name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    background:red;
+}
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#initiative h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#donate, #initiative {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#donate {
+    color:white;
+    background-image: url(https://thumbs.gfycat.com/TastyScaredAdeliepenguin-size_restricted.gif) ;
+}
+
+#initiative {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0HDQ0HDQ8NDQcNFREWFhURFRMYHSggGBolGxUVITEhJSkrLi46Fx8zODM4NygtOisBCgoKDQ0NDg0NDysZFRk3Ny0tKys3Ky03NystLSsrKysrKystKysrLSstKysrKysrLSsrLSsrKystKysrKysrK//AABEIASwAqAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBAf/xAAaEAEBAQADAQAAAAAAAAAAAAAAEQECIXEx/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A+mIpyvrJFYgikgcSKCKRZSKawANBvAyNaDeJka1uDW8LGhvWY1UyiTS3ETHA3QjFEqsMRQohhhTIMRLITUEawUBqKNYGYNaDeJgbjYjVLAje4I1SwmoEW8MOJyRqiGFJUEwoUFGBmqI5hIChiIEEaTQZ3BrUEOamBG4I1Swo1BGqWYiTSc+YjxzrPMMeEVERMUVGYSoBVDFhABhMAERUIZiaG4UBDESzuCNbgaqZgjSNLEJiVS451nmE8fmeYUzQUWTRhhiCqiMLIBUMCCJiDMRRTMDUUVLEUaBqZijSVTETaVLPHOs8wrjnWeYY9XlQYYYzrVCMMZ1UFQs6qlCgkjEEBGlEqyGookzBGolUzBG4lTWYmolVWOPzPMJ451nhj3eNZJhgNEUaiZNETUUZ00QwwsqsxRqIVMhsRVANKJMqNQQERQwxVVmJqEVOeZ1ijWZ1ijprnoTSZrVEMRBohWGMmgosqhQoGiIpKgNKBUQRqKJURRqIKiBoBMZhiwulzUIoNVJEGhFA1IoGpIg0IoKhFI0IxBUEgKrMRSVcsIxOhyUoFGpJI0oIRqkhCGlAiNVEIQ0oJQ1pBURVEERJJKJxws4XRHDSqEo1SWTVDUQlGs0pIRqlJCGpIVRqlCoQ01A1Q0qipRU1CgRVzIT2cFKCUNJCUapSSjWaUCo1mpJCNVJJQ1KiqmNGqs1VQtVViqrlN1MVLkghNPnlBKEkFQ0oJNYUCms1JJN5qCRhSAMaNFGiqE1VmimFuhmo8p0ITDgSRRSSRKSLWIhIkEKNZqBZLSGrRrWY1iGpndajS3RUKYTUxUYnpRDxjhSRUSSShKSUaSSJQSTWIFktDRp1nWsxoaDrOtZhW6zundZ1rMKoSJexBPCOEpIlJIQlAo4kgmkkE1iBBLOjTo1ppnQdDWFnQ0GsNZR0FV60k8Y4ygjEUkGkkkSEA1hCSawDSE0NB0Es6GtDWIMtBrFRA0mhXpBDzcqSSKKQaSSRxBINYgQy1iBSaZDQNIBRoZijQazQIimqHZJMvAFJFJIFBJNJJMtYkEG8SQBQIRSKNAihTWM6IiGmH//Z);
+    color:blue ;
+}
+
+#nai img{
+    width: 30%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#nai {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#nai img:hover {
+  -webkit-transform: rotateY(150deg); /* Safari */
+  transform: rotateY(150deg);
+}
+
+#nai {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0HDQ0HDQ8NDQcNFREWFhURFRMYHSggGBolGxUVITEhJSkrLi46Fx8zODM4NygtOisBCgoKDQ0NDg0NDysZFRk3Ny0tKys3Ky03NystLSsrKysrKystKysrLSstKysrKysrLSsrLSsrKystKysrKysrK//AABEIASwAqAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBAf/xAAaEAEBAQADAQAAAAAAAAAAAAAAEQECIXEx/8QAGQEBAQEBAQEAAAAAAAAAAAAAAQACBAMF/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A+mIpyvrJFYgikgcSKCKRZSKawANBvAyNaDeJka1uDW8LGhvWY1UyiTS3ETHA3QjFEqsMRQohhhTIMRLITUEawUBqKNYGYNaDeJgbjYjVLAje4I1SwmoEW8MOJyRqiGFJUEwoUFGBmqI5hIChiIEEaTQZ3BrUEOamBG4I1Swo1BGqWYiTSc+YjxzrPMMeEVERMUVGYSoBVDFhABhMAERUIZiaG4UBDESzuCNbgaqZgjSNLEJiVS451nmE8fmeYUzQUWTRhhiCqiMLIBUMCCJiDMRRTMDUUVLEUaBqZijSVTETaVLPHOs8wrjnWeYY9XlQYYYzrVCMMZ1UFQs6qlCgkjEEBGlEqyGookzBGolUzBG4lTWYmolVWOPzPMJ451nhj3eNZJhgNEUaiZNETUUZ00QwwsqsxRqIVMhsRVANKJMqNQQERQwxVVmJqEVOeZ1ijWZ1ijprnoTSZrVEMRBohWGMmgosqhQoGiIpKgNKBUQRqKJURRqIKiBoBMZhiwulzUIoNVJEGhFA1IoGpIg0IoKhFI0IxBUEgKrMRSVcsIxOhyUoFGpJI0oIRqkhCGlAiNVEIQ0oJQ1pBURVEERJJKJxws4XRHDSqEo1SWTVDUQlGs0pIRqlJCGpIVRqlCoQ01A1Q0qipRU1CgRVzIT2cFKCUNJCUapSSjWaUCo1mpJCNVJJQ1KiqmNGqs1VQtVViqrlN1MVLkghNPnlBKEkFQ0oJNYUCms1JJN5qCRhSAMaNFGiqE1VmimFuhmo8p0ITDgSRRSSRKSLWIhIkEKNZqBZLSGrRrWY1iGpndajS3RUKYTUxUYnpRDxjhSRUSSShKSUaSSJQSTWIFktDRp1nWsxoaDrOtZhW6zundZ1rMKoSJexBPCOEpIlJIQlAo4kgmkkE1iBBLOjTo1ppnQdDWFnQ0GsNZR0FV60k8Y4ygjEUkGkkkSEA1hCSawDSE0NB0Es6GtDWIMtBrFRA0mhXpBDzcqSSKKQaSSRxBINYgQy1iBSaZDQNIBRoZijQazQIimqHZJMvAFJFJIFBJNJJMtYkEG8SQBQIRSKNAihTWM6IiGmH//Z);
+}
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background:blue;
+    color:black;
+    border-radius: 5px;
+    border: solid white 4px;
+}
+
+#donate button:hover {
+    background:red;
+    color:blue;
+}
